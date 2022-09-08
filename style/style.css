@@ -277,6 +277,8 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+
 .receipt.active .receipt__window{
     width: 30%;
     min-height: 50%;
@@ -341,4 +343,40 @@ a {
     .main {
         width: 95%;
     }
+}
+
+
+
+
+.receipt__window-out{
+    padding: 10px;
+    height: 291px;
+    overflow-y: scroll;
+}
+
+.receipt__window-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.274);
+}
+.receipt__window-info{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+}
+.receipt__window-img-mini{
+    width: 70px;
+}
+
+.receipt__window-dropdownBotton{
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 14px;
+    gap: 120px;    
 }
